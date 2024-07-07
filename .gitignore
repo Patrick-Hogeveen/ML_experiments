@@ -3,6 +3,10 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+#other
+/data
+mnist_test
+
 # C extensions
 *.so
 
