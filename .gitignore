@@ -5,6 +5,9 @@ __pycache__/
 
 #other
 /data
+/ablit
+\ablit
+\microsoft
 mnist_test
 
 # C extensions
