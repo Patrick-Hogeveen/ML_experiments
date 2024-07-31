@@ -9,6 +9,7 @@ __pycache__/
 \ablit
 \microsoft
 mnist_test
+\docs
 
 # C extensions
 *.so
