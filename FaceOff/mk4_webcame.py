@@ -11,6 +11,9 @@ device = torch.device('cuda')
 mtcnn = MTCNN(keep_all=True, device=device)
 
 cap = cv2.VideoCapture(0)
+if not cap.isOpened():
+    print("Cannot find camera")
+    exit()
 frame_width = int(cap.get(3))
 frame_height = int(cap.get(4))
 
