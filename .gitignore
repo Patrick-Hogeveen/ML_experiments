@@ -16,6 +16,9 @@ RAG/*
 # C extensions
 *.so
 
+#custom
+*.pth
+
 # Distribution / packaging
 .Python
 build/
